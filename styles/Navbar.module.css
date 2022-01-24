@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.container {
+    background-color: #d1411e;
+    height: 100px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.item {
+    flex: 1;
+    display: flex;    
+    align-items: center;
+    /* border: 1px solid pink; */
+}
+
+.item:nth-child(2) {
+    flex: 3;
+}
+
+.callBtn {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.texts {
+    margin-left: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text:first-child {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text:last-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.listItem {
+    margin: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.listItem:first-child, .logo:hover {
+    cursor: pointer;
+}
+
+.item:last-child {
+    justify-content: flex-end;
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    margin: 20px;
+    font-weight: bold;
+    }
+
+.cart {
+    position: relative;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.count {
+    position: absolute;
+    top: -26px;
+    right: -10px;
+    background-color: #fff;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d1411e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
