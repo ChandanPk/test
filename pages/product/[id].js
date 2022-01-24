@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { addProduct } from '../../redux/cartSlice'
 
 const Product = ({ pizza }) => {
-
+// nora fatehi
     const [price, setPrice] = useState(pizza.prices[0]);
     const [size, setSize] = useState(0);
     const [extras, setExtras] = useState([])
